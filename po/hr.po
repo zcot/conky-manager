@@ -1,0 +1,777 @@
+# Croatian translation for conky-manager
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the conky-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: conky-manager\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-07-13 23:32+0530\n"
+"PO-Revision-Date: 2014-07-25 09:03+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-31 17:24+0000\n"
+"X-Generator: Launchpad (build 17131)\n"
+
+#: src/EditWidgetWindow.vala:384
+msgid "12 Hour"
+msgstr "12 satni"
+
+#: src/EditWidgetWindow.vala:386
+msgid "24 Hour"
+msgstr "24 satni"
+
+#: src/MainWindow.vala:405 src/MainWindow.vala:406
+msgid "About"
+msgstr "O programu"
+
+#: src/SettingsWindow.vala:199
+msgid "Add"
+msgstr "Dodaj"
+
+#: src/SettingsWindow.vala:152
+msgid "Additional locations to search for Conky themes"
+msgstr "Dodatne lokacije pretraživanja Conky tema"
+
+#: src/EditWidgetWindow.vala:104
+msgid "Alignment"
+msgstr "Poravnanje"
+
+#: src/GeneratePreviewWindow.vala:68
+msgid "All Widgets (Overwrite Existing Image)"
+msgstr "Sve widgete (Prepiši postojeću sliku)"
+
+#: src/GeneratePreviewWindow.vala:65
+msgid "All Widgets with Missing Previews"
+msgstr "Sve widgete bez pregleda"
+
+#: src/Main.vala:254
+msgid "App config loaded"
+msgstr "Podešavanja aplikacije učitana"
+
+#: src/Main.vala:207
+msgid "App config saved"
+msgstr "Podešavanja aplikacije spremljena"
+
+#: src/MainWindow.vala:387 src/SettingsWindow.vala:47
+msgid "Application Settings"
+msgstr "Postavke aplikacije"
+
+#: src/EditWidgetWindow.vala:445
+msgid "Apply"
+msgstr "Primijeni"
+
+#: src/EditWidgetWindow.vala:448
+msgid "Apply Changes"
+msgstr "Primijeni promjene"
+
+#: src/AboutWindow.vala:312
+#, c-format
+msgid "Artists"
+msgstr "Umjetnici"
+
+#: src/AboutWindow.vala:304
+#, c-format
+msgid "Authors"
+msgstr "Autori"
+
+#: src/AboutWindow.vala:275
+msgid "Back"
+msgstr "Natrag"
+
+#: src/EditWidgetWindow.vala:312
+msgid "Background Color"
+msgstr "Boja pozadine"
+
+#: src/EditWidgetWindow.vala:125
+msgid "Bottom Left"
+msgstr "Dolje lijevo"
+
+#: src/EditWidgetWindow.vala:129
+msgid "Bottom Middle"
+msgstr "Dolje sreduna"
+
+#: src/EditWidgetWindow.vala:127
+msgid "Bottom Right"
+msgstr "Dolje desno"
+
+#: src/MainWindow.vala:136
+msgid ""
+"Browse widgets or themes.\n"
+"\n"
+"Widgets are Conky configuration files (conkyrc files)\n"
+"Themes are a set of Widgets along with wallpaper (cmtheme files)"
+msgstr ""
+"Pregledavajte widgete ili teme.\n"
+"\n"
+"Widgeti su Conky datoteke podešavanja (conkyrc datoteke)\n"
+"Teme su skup Widgeta i slike pozadine radne površine zajedno (cmtheme "
+"datoteke)"
+
+#: src/MainWindow.vala:119
+msgid "Browse:"
+msgstr "Pregledaj:"
+
+#: src/EditThemeWindow.vala:212 src/GeneratePreviewWindow.vala:126
+#: src/SettingsWindow.vala:221
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: src/GeneratePreviewWindow.vala:82
+msgid "Capture Desktop Background"
+msgstr "Snimi pozadinu radne površine"
+
+#: src/EditThemeWindow.vala:130
+msgid "Choose File"
+msgstr "Odaberi datoteku"
+
+#: src/AboutWindow.vala:285 src/EditWidgetWindow.vala:461
+msgid "Close"
+msgstr "Zatvori"
+
+#: src/Main.vala:163
+msgid "Commands listed below are not available"
+msgstr "Naredbe navedene ispod nisu dostupne"
+
+#: src/AboutWindow.vala:262 src/AboutWindow.vala:279 src/MainWindow.vala:236
+msgid "Credits"
+msgstr "Zasluge"
+
+#: src/EditThemeWindow.vala:123
+msgid "Current Wallpaper"
+msgstr "Trenutna slika pozadine"
+
+#: src/EditThemeWindow.vala:115
+msgid "Custom Wallpaper"
+msgstr "Prilagođena slika pozadine"
+
+#: src/DonationWindow.vala:53
+msgid ""
+"Did you find this software useful?\n"
+"\n"
+"You can buy me a coffee or make a donation via PayPal to show your support. "
+"Or just drop me an email and say Hi.\n"
+"\n"
+"This application is completely free and will continue to remain that way. "
+"Your contributions will help in developing it further and making it more "
+"awesome!\n"
+"\n"
+"Feel free to drop me a mail if you find any issues or if you have "
+"suggestions for improvement.\n"
+"\n"
+"Regards,\n"
+"Tony George\n"
+"teejeetech@gmail.com"
+msgstr ""
+"Je li vam ovaj softver koristan?\n"
+"\n"
+"Ako želite podržati ovaj softver, možete mi kupiti kavu ili donirati putem "
+"PayPala. Ili mi samo pošaljite e-poštu i napišite 'Hi'.\n"
+"\n"
+"Ova aplikacija je u potpunosti besplatna i tako će ubudće i ostati. Vaš "
+"doprinos će pomoći u budućem razvoju i učiniti ju još boljom!\n"
+"\n"
+"Slobodno mi javite e-poštom ako naiđete na bilo kakav problem ili imate "
+"prijedlog u svrhu poboljšanja aplikacije.\n"
+"\n"
+"Pozdrav,\n"
+"Tony George\n"
+"teejeetech@gmail.com"
+
+#: src/Main.vala:263 src/Main.vala:269 src/Main.vala:275
+msgid "Directory Created"
+msgstr "Direktorij stvoren"
+
+#: src/EditWidgetWindow.vala:464
+msgid "Discard Changes"
+msgstr "Odbaci promjene"
+
+#: src/AboutWindow.vala:328
+#, c-format
+msgid "Documenters"
+msgstr "Autori dokumentacije"
+
+#: src/DonationWindow.vala:36 src/MainWindow.vala:396 src/MainWindow.vala:397
+msgid "Donate"
+msgstr "Donirajte"
+
+#: src/DonationWindow.vala:67
+msgid "Donate via PayPal"
+msgstr "Donirajte putem PayPala"
+
+#: src/AboutWindow.vala:336
+#, c-format
+msgid "Donations"
+msgstr "Donacije"
+
+#: src/MainWindow.vala:310
+msgid "Edit"
+msgstr "Uredi"
+
+#: src/EditThemeWindow.vala:57
+msgid "Edit Theme"
+msgstr "Uredi temu"
+
+#: src/EditWidgetWindow.vala:64 src/MainWindow.vala:311
+msgid "Edit Widget"
+msgstr "Uredi Widget"
+
+#: src/MainWindow.vala:320
+msgid "Edit file manually in a text editor"
+msgstr "Uredite datoteku ručno u uređivaču teksta"
+
+#: src/MainWindow.vala:426
+msgid "Enable"
+msgstr "Omogući"
+
+#: src/MainWindow.vala:161
+msgid ""
+"Enter name or path to filter.\n"
+"Enter '0' to list running widgets"
+msgstr ""
+"Upišite naziv ili putanju do filtra.\n"
+"Upišite '0' za popis pokrenutih widgeta"
+
+#: src/MainWindow.vala:941 src/Utility.vala:106
+msgid "Error"
+msgstr "Greška"
+
+#: src/MainWindow.vala:941
+msgid "Failed to import themes"
+msgstr "Neuspjeli uvoz teme"
+
+#: src/Main.vala:368
+msgid "Failed to unzip files from theme pack"
+msgstr "Neuspjelo otpakiravanje datoteka iz paketa tema"
+
+#: src/MainWindow.vala:151
+msgid "Filter"
+msgstr "Filter"
+
+#: src/Main.vala:557
+msgid "Font Copied: "
+msgstr "Kopirana slova: "
+
+#: src/Main.vala:316
+msgid "Found theme pack [installed]"
+msgstr "Pronađen paket tema [instalirano]"
+
+#: src/Main.vala:324
+msgid "Found theme pack [new]"
+msgstr "Pronađen paket tema [novo]"
+
+#: src/SettingsWindow.vala:76
+msgid "General"
+msgstr "Općenito"
+
+#: src/GeneratePreviewWindow.vala:44 src/MainWindow.vala:351
+msgid "Generate Preview"
+msgstr "Generiraj pregled"
+
+#: src/MainWindow.vala:352
+msgid "Generate preview images"
+msgstr "Generirajte slike pregleda"
+
+#: src/GeneratePreviewWindow.vala:56
+msgid "Generate preview images for"
+msgstr "Generiraj sliku pregleda za"
+
+#: src/MainWindow.vala:784 src/MainWindow.vala:858
+msgid "Generating Previews"
+msgstr "Generiranje pregleda"
+
+#: src/EditWidgetWindow.vala:213
+msgid "Height Padding"
+msgstr "Povećanje prozora"
+
+#: src/EditWidgetWindow.vala:195
+msgid ""
+"Height should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"Visina treba biti veća od veličine sadržaja prozora,\n"
+"inače ova postavka neće imati efekta"
+
+#: src/EditWidgetWindow.vala:139
+msgid "Horizontal Gap"
+msgstr "Vodoravan pomak"
+
+#: src/MainWindow.vala:371
+msgid "Import"
+msgstr "Uvezi"
+
+#: src/MainWindow.vala:897
+msgid "Import Theme Pack"
+msgstr "Uvezite pakete tema"
+
+#: src/MainWindow.vala:372
+msgid "Import Theme Pack (*.cmtp.7z)"
+msgstr "Uvezi paket teme (*.cmtp.7z)"
+
+#: src/Main.vala:360
+msgid "Importing"
+msgstr "Uvoz"
+
+#: src/EditThemeWindow.vala:80
+msgid "Include desktop wallpaper in theme"
+msgstr "Uključi sliku pozadine radne površine u temu"
+
+#: src/EditThemeWindow.vala:222 src/EditThemeWindow.vala:223
+msgid "Include running widgets in theme"
+msgstr "Uključi pokrenute widgete u temu"
+
+#: src/EditWidgetWindow.vala:210
+msgid ""
+"Increases the window height by adding empty lines at the end of the Conky "
+"config file"
+msgstr ""
+"Povećavanje veličine prozora dodavanjem praznih redaka na kraj Conky "
+"datoteke podešavanja"
+
+#: src/EditWidgetWindow.vala:406
+msgid "Interface"
+msgstr "Sučelje"
+
+#: src/EditWidgetWindow.vala:425
+msgid "LAN"
+msgstr "LAN"
+
+#: src/EditWidgetWindow.vala:475
+msgid "Loading"
+msgstr "Učitavanje"
+
+#: src/EditWidgetWindow.vala:88 src/SettingsWindow.vala:173
+msgid "Location"
+msgstr "Položaj"
+
+#: src/SettingsWindow.vala:126
+msgid "Locations"
+msgstr "Lokacije"
+
+#: src/MainWindow.vala:319
+msgid "Manual Edit"
+msgstr "Ručno uređivanje"
+
+#: src/EditWidgetWindow.vala:131
+msgid "Middle Left"
+msgstr "Sredina lijevo"
+
+#: src/EditWidgetWindow.vala:135
+msgid "Middle Middle"
+msgstr "Sredina u sredini"
+
+#: src/EditWidgetWindow.vala:133
+msgid "Middle Right"
+msgstr "Sredina desno"
+
+#: src/EditWidgetWindow.vala:198
+msgid "Minimum Height"
+msgstr "Minimalna visina"
+
+#: src/EditWidgetWindow.vala:182
+msgid "Minimum Width"
+msgstr "Minimalna širina"
+
+#: src/Main.vala:132
+msgid "Missing Dependencies"
+msgstr "Međuovisnosti nedostaju"
+
+#: src/Utility.vala:1000
+msgid "Missing Icon"
+msgstr "Ikone koje nedostaju"
+
+#: src/MainWindow.vala:1047
+msgid "N/A"
+msgstr "Nedostupan"
+
+#: src/EditThemeWindow.vala:328
+msgid "Name Required"
+msgstr "Potreban naziv"
+
+#: src/EditWidgetWindow.vala:390
+msgid "Network"
+msgstr "Mreža"
+
+#: src/EditWidgetWindow.vala:522
+msgid "Network interface cannot be changed for selected widget"
+msgstr "Mrežno sučelje se ne može promijeniti za odabrani widget"
+
+#: src/MainWindow.vala:278
+msgid "Next"
+msgstr "Sljedeće"
+
+#: src/MainWindow.vala:279
+msgid "Next Widget"
+msgstr "Sljedeći widget"
+
+#: src/EditThemeWindow.vala:341
+msgid "No Widgets Selected"
+msgstr "Nema odabranih widgeta"
+
+#: src/EditThemeWindow.vala:113
+msgid "None"
+msgstr "Nijedno"
+
+#: src/EditThemeWindow.vala:205 src/GeneratePreviewWindow.vala:103
+#: src/SettingsWindow.vala:215
+msgid "OK"
+msgstr "U redu"
+
+#: src/EditWidgetWindow.vala:298
+msgid "Opacity (%)"
+msgstr "Prozirnost (%)"
+
+#: src/EditWidgetWindow.vala:286
+msgid "Opaque"
+msgstr "Neprozirno"
+
+#: src/MainWindow.vala:328
+msgid "Open Folder"
+msgstr "Otvori mapu"
+
+#: src/MainWindow.vala:329
+msgid "Open Theme Folder"
+msgstr "Otvori mapu teme"
+
+#: src/GeneratePreviewWindow.vala:71
+msgid "Options"
+msgstr "Mogućnosti"
+
+#: src/EditThemeWindow.vala:329
+msgid "Please enter theme name"
+msgstr "Upišite naziv teme"
+
+#: src/Main.vala:164
+msgid "Please install required packages and try running it again"
+msgstr "Instalirajte potreban paket i pokušajte ponovno pokrenuti"
+
+#: src/MainWindow.vala:269
+msgid "Previous"
+msgstr "Prijašnje"
+
+#: src/MainWindow.vala:270
+msgid "Previous Widget"
+msgstr "Prijašnji widget"
+
+#: src/EditWidgetWindow.vala:290
+msgid "Pseudo-Transparent"
+msgstr "Prividno-prozirno"
+
+#: src/MainWindow.vala:342
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: src/SettingsWindow.vala:205
+msgid "Remove"
+msgstr "Ukloni"
+
+#: src/EditWidgetWindow.vala:453
+msgid "Reset"
+msgstr "Poništi"
+
+#: src/EditWidgetWindow.vala:456
+msgid "Reset Changes"
+msgstr "Poništi promjene"
+
+#: src/SettingsWindow.vala:86
+msgid "Run Conky at system startup"
+msgstr "Pokreni Conky pri pokretanju sustava"
+
+#: src/EditThemeWindow.vala:57
+msgid "Save Theme"
+msgstr "Spremi temu"
+
+#: src/Main.vala:940
+msgid "Saved"
+msgstr "Spremljeno"
+
+#: src/MainWindow.vala:145
+msgid "Saving running widgets as new theme"
+msgstr "Spremanje pokrenutih widgeta kao nove teme"
+
+#: src/EditThemeWindow.vala:152
+msgid "Scaling"
+msgstr "Razmjer"
+
+#: src/MainWindow.vala:343
+msgid "Search for new themes"
+msgstr "Pretraži nove teme"
+
+#: src/MainWindow.vala:1059
+msgid "Searching directories..."
+msgstr "Pretraživanje direktorija..."
+
+#: src/Main.vala:404
+#, c-format
+msgid "Searching for conkyrc files... %d found"
+msgstr "Pretraživanje conkyrc datoteka... %d pronađeno"
+
+#: src/EditThemeWindow.vala:135
+msgid "Select Wallpaper"
+msgstr "Odaberi sliku pozadine"
+
+#: src/SettingsWindow.vala:270
+msgid "Select directory"
+msgstr "Odaberi direktorij"
+
+#: src/EditThemeWindow.vala:342
+msgid "Select the widgets to include in theme"
+msgstr "Odaberite widgete za uključiti u temu"
+
+#: src/GeneratePreviewWindow.vala:62
+msgid "Selected Widget"
+msgstr "Odabrani widget"
+
+#: src/EditWidgetWindow.vala:292
+msgid "Semi-Transparent"
+msgstr "Polu-prozirno"
+
+#: src/DonationWindow.vala:74
+msgid "Send Email"
+msgstr "Pošalji e-mail"
+
+#: src/EditWidgetWindow.vala:240
+msgid ""
+"Setting Type to \"Opaque\" (from the transparency tab) will make it easier "
+"to see the changes"
+msgstr ""
+"Postavljanjem vrste prozirnosti u \"Neprozirno\" (iz kartice neprozirnosti) "
+"lakše ćete vidjeti promjene"
+
+#: src/EditWidgetWindow.vala:335
+msgid ""
+"Setting Type to \"Pseudo-Transparent\" will make the window transparent but "
+"the window will have a shadow. The shadow can be disabled by configuring "
+"your window manager."
+msgstr ""
+"Postavljanjem vrste prozirnosti u \"Prividno-Prozirno\" učinit će prozor "
+"prozirnim ali zato će imati sjenu. Sjena se može onemogućiti podešavanjem "
+"vašeg upravitelja prozora."
+
+#: src/EditWidgetWindow.vala:325
+msgid ""
+"Setting Type to \"Transparent\" will make the whole window transparent "
+"(including any images). Use \"Pseudo-Transparent\" if you want the images to "
+"be opaque."
+msgstr ""
+"Postavljanjem vrste prozirnosti u \"Prozirno\" učinit će cijeli prozor "
+"prozirnim (uključujući sve slike). Koristite \"Prividno-Prozirno\" ako "
+"želite neprozirne slike."
+
+#: src/MainWindow.vala:386
+msgid "Settings"
+msgstr "Postavke"
+
+#: src/EditWidgetWindow.vala:164
+msgid "Size"
+msgstr "Veličina"
+
+#: src/MainWindow.vala:226
+msgid "Source"
+msgstr "Izvor"
+
+#: src/MainWindow.vala:287 src/MainWindow.vala:296
+msgid "Start"
+msgstr "Pokreni"
+
+#: src/MainWindow.vala:288
+msgid "Start/Restart Widget"
+msgstr "Pokreni/Osvježi widget"
+
+#: src/Main.vala:851
+msgid "Started"
+msgstr "Pokrenuto"
+
+#: src/SettingsWindow.vala:105
+msgid "Startup Delay (seconds)"
+msgstr "Odgoda pokretanja (sek)"
+
+#: src/MainWindow.vala:208 src/MainWindow.vala:210
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: src/MainWindow.vala:362
+msgid "Stop All Widgets"
+msgstr "Zaustavi sve widgete"
+
+#: src/MainWindow.vala:297
+msgid "Stop Widget"
+msgstr "Zaustavi widget"
+
+#: src/MainWindow.vala:363
+msgid "Stop all running widgets"
+msgstr "Zaustavi sve pokrenute widgete"
+
+#: src/Main.vala:877 src/Utility.vala:728
+msgid "Stopped"
+msgstr "Zaustavljeno"
+
+#: src/EditWidgetWindow.vala:230
+msgid ""
+"The minimum width & height must be more than the size of the window "
+"contents, otherwise the setting will not have any effect."
+msgstr ""
+"Najmanja širina i visina moraju biti veće od veličine sadržaja prozora, "
+"inače postavke neće imati efekta."
+
+#: src/SettingsWindow.vala:137
+msgid "Theme Directory"
+msgstr "Direktorij teme"
+
+#: src/EditThemeWindow.vala:67
+msgid "Theme Name"
+msgstr "Naziv teme"
+
+#: src/MainWindow.vala:579
+msgid "Themes"
+msgstr "Teme"
+
+#: src/MainWindow.vala:938
+msgid "Themes Imported"
+msgstr "Tema uvezena"
+
+#: src/MainWindow.vala:938
+msgid "Themes imported successfully"
+msgstr "Tema je uspješno uvezena"
+
+#: src/EditWidgetWindow.vala:346
+msgid "Time"
+msgstr "Vrijeme"
+
+#: src/EditWidgetWindow.vala:362
+msgid "Time Format"
+msgstr "Format vremena"
+
+#: src/EditWidgetWindow.vala:506
+msgid "Time format cannot be changed for selected widget"
+msgstr "Format vremena ne može se promijeniti za odabrani widget"
+
+#: src/MainWindow.vala:181
+msgid "Toggle List"
+msgstr "Prikaži popis tema"
+
+#: src/MainWindow.vala:174
+msgid "Toggle Preview"
+msgstr "Prikaži pregled teme"
+
+#: src/EditWidgetWindow.vala:119
+msgid "Top Left"
+msgstr "Gore lijevo"
+
+#: src/EditWidgetWindow.vala:123
+msgid "Top Middle"
+msgstr "Gore sredina"
+
+#: src/EditWidgetWindow.vala:121
+msgid "Top Right"
+msgstr "Gore desno"
+
+#: src/AboutWindow.vala:320
+#, c-format
+msgid "Translators"
+msgstr "Prevoditelji"
+
+#: src/EditWidgetWindow.vala:251
+msgid "Transparency"
+msgstr "Prozirnost"
+
+#: src/EditWidgetWindow.vala:268
+msgid "Transparency Type"
+msgstr "Vrsta prozirnosti"
+
+#: src/EditWidgetWindow.vala:288
+msgid "Transparent"
+msgstr "Prozirno"
+
+#: src/EditWidgetWindow.vala:545
+msgid "Updating theme"
+msgstr "Ažuriranje teme"
+
+#: src/MainWindow.vala:462
+msgid ""
+"Use the keyboard arrow keys to browse.\n"
+"Press ENTER to start and stop."
+msgstr ""
+"Koristite tipke strelica tipkovnice za pregled.\n"
+"Pritisnite ENTER za pokretanje i zaustavljanje."
+
+#: src/MainWindow.vala:993
+msgid "Utility for managing Conky configuration files"
+msgstr "Alat za upravljanje Conky datotekama podešavanja"
+
+#: src/EditWidgetWindow.vala:151
+msgid "Vertical Gap"
+msgstr "Okomit pomak"
+
+#: src/DonationWindow.vala:81
+msgid "Visit Website"
+msgstr "Posjetite web stranicu"
+
+#: src/EditThemeWindow.vala:80 src/EditThemeWindow.vala:93
+msgid "Wallpaper"
+msgstr "Slika pozadine"
+
+#: src/Main.vala:1750 src/Main.vala:1758
+msgid "Wallpaper saved"
+msgstr "Slika pozadine spremljena"
+
+#: src/Utility.vala:106
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: src/GeneratePreviewWindow.vala:86
+msgid ""
+"When enabled, the generated image will have the same background as the "
+"current desktop wallpaper. When disabled, the background will be a solid "
+"color (the widget's background color)."
+msgstr ""
+"Kada je omogućeno generirana slika imat će istu pozadinu kao i trenutna "
+"pozadina radne površine. Kada je onemogućeno, slika pozadine biti će "
+"određena boja (boja pozadine widgeta)"
+
+#: src/EditWidgetWindow.vala:416
+msgid "WiFi"
+msgstr "WiFi"
+
+#: src/EditWidgetWindow.vala:421
+msgid "WiFi Network"
+msgstr "WiFi mreža"
+
+#: src/EditThemeWindow.vala:222 src/MainWindow.vala:577
+msgid "Widgets"
+msgstr "Widgete"
+
+#: src/EditWidgetWindow.vala:179
+msgid ""
+"Width should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"Širina treba biti veća od veličine sadržaja prozora,\n"
+"inače postavke neće imati efekta"
+
+#: src/EditWidgetWindow.vala:295
+msgid ""
+"Window Opacity\n"
+"\n"
+"0 = Fully Transparent, 100 = Fully Opaque"
+msgstr ""
+"Prozirnost prozora\n"
+"\n"
+"0 = Potpuno prozirno, 100 = Potpuno neprozirno"
+
+#: src/EditWidgetWindow.vala:430
+msgid "Wired LAN Network"
+msgstr "Žična LAN mreža"
+
+#: src/EditWidgetWindow.vala:140
+msgid "[GAP_X] Horizontal distance from window border (in pixels)"
+msgstr "[GAP_X] Vodoravna udaljenost od rubova prozora (u pikselima)"
+
+#: src/EditWidgetWindow.vala:152
+msgid "[GAP_Y] Vertical distance from window border (in pixels)"
+msgstr "[GAP_Y] Okomita udaljenost od rubova prozora (u pikselima)"

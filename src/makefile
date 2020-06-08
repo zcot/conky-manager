@@ -46,16 +46,16 @@ install:
 	
 	#translations
 	mkdir -p "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-cs.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES/${app_name}.mo" ../po/cs.po
 	
 	mkdir -p "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-hr.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES/${app_name}.mo" ../po/hr.po
 	
 	mkdir -p "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-nl.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES/${app_name}.mo" ../po/nl.po
 	
 	mkdir -p "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-pt_BR.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES/${app_name}.mo" ../po/pt_BR.po
 
 uninstall:
 	#binary
