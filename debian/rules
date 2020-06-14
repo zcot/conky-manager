@@ -15,4 +15,4 @@
 #	dh $@  --with autotools-dev
 
 %:
-    dh $@ --buildsystem=meson
+	dh $@ --buildsystem=meson

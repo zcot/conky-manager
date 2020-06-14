@@ -1,16 +1,14 @@
-Source: conky-manager
+Source: conky-manager2
 Section: utils
 Priority: extra
-Maintainer: Tony George <tony.george.kol@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev, valac-0.26, libgtk-3-dev, libgee-0.8-dev, libjson-glib-dev
-Standards-Version: 3.9.3
+Maintainer: Arkadiusz Felinczak <arek_felinczak@protonmail.com>
+Build-Depends: debhelper (>= 8.0.0), meson, valac, libgtk-3-dev, libgee-0.8-dev, libjson-glib-dev
+Standards-Version: 4.5.0
 Homepage: http://teejeetech.blogspot.in/
-#Vcs-Git: git://git.debian.org/collab-maint/hello.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/hello.git;a=summary
 
-Package: conky-manager
+Package: conky-manager2
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, realpath, conky, p7zip-full, rsync, imagemagick
+Depends: ${shlibs:Depends}, ${misc:Depends}, coreutils, conky, p7zip-full, rsync, imagemagick
 #Recommends: 
 Description: Utility for managing Conky configuration files
  Utility for managing Conky configuration files
