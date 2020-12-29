@@ -318,8 +318,8 @@ msgid "Import Theme Pack"
 msgstr "Themenpaket importieren"
 
 #: MainWindow.vala:390
-msgid "Import Theme Pack (*.cmtp.7z)"
-msgstr "Themenpaket importieren (*.cmtp.7z)"
+msgid "Import Theme Pack (*.cmtp.7z) or various archive type"
+msgstr "Themenpaket importieren (*.cmtp.7z) oder verschiedene Archivtypen"
 
 #: Main.vala:363
 msgid "Importing"
@@ -491,7 +491,7 @@ msgstr "Entfernen"
 
 #: EditWidgetWindow.vala:453
 msgid "Reset"
-msgstr "zurücksetzen"
+msgstr "Zurücksetzen"
 
 #: EditWidgetWindow.vala:456
 msgid "Reset Changes"
@@ -570,7 +570,7 @@ msgid ""
 "the window will have a shadow. The shadow can be disabled by configuring "
 "your window manager."
 msgstr ""
-"Wenn Sie Type auf \"Pseudo-Transparent\" setzen, wird das Fenster "
+"Wenn Sie Type auf \"Pseudo-durchsichtig\" setzen, wird das Fenster "
 "transparent, aber das Fenster hat einen Schatten. Der Schatten kann durch "
 "Konfigurieren Ihres Fenstermanagers deaktiviert werden."
 
@@ -580,7 +580,7 @@ msgid ""
 "(including any images). Use \"Pseudo-Transparent\" if you want the images to "
 "be opaque."
 msgstr ""
-"Wenn Sie den Typ auf \"Transparent\" setzen, wird das gesamte Fenster "
+"Wenn Sie den Typ auf \"Durchsichtig\" setzen, wird das gesamte Fenster "
 "(einschließlich aller Bilder) transparent. Verwenden Sie "
 "\"Pseudo-Transparent\", wenn die Bilder undurchsichtig sein sollen."
 
