@@ -434,7 +434,7 @@ msgstr "None"
 #: DonationWindow.vala:95 EditThemeWindow.vala:205
 #: GeneratePreviewWindow.vala:125 SettingsWindow.vala:215
 msgid "OK"
-msgstr "in Ordnung"
+msgstr "OK"
 
 #: EditWidgetWindow.vala:298
 msgid "Opacity (%)"
@@ -487,7 +487,7 @@ msgstr "Aktualisieren"
 
 #: SettingsWindow.vala:205
 msgid "Remove"
-msgstr "entfernen"
+msgstr "Entfernen"
 
 #: EditWidgetWindow.vala:453
 msgid "Reset"
@@ -521,7 +521,7 @@ msgstr "Skalierung"
 
 #: MainWindow.vala:361
 msgid "Search for new themes"
-msgstr "Suche nach neuen Themas"
+msgstr "Suche nach neuen Themen"
 
 #: MainWindow.vala:1075
 msgid "Searching directories..."
@@ -626,7 +626,7 @@ msgstr "Widget stoppen"
 
 #: MainWindow.vala:381
 msgid "Stop all running widgets"
-msgstr "Alle laufenden widgets stoppen"
+msgstr "Alle laufenden Widgets stoppen"
 
 #: Main.vala:892 Utility.vala:751
 msgid "Stopped"
