@@ -387,7 +387,7 @@ public class MainWindow : Window {
 		btn_import_themes = new Gtk.ToolButton.from_stock ("gtk-open");
 		btn_import_themes.is_important = false;
 		btn_import_themes.label = _("Import");
-		btn_import_themes.set_tooltip_text (_("Import Theme Pack (*.cmtp.7z)"));
+		btn_import_themes.set_tooltip_text (_("Import Theme Pack (*.cmtp.7z) or various archive type"));
         toolbar.add(btn_import_themes);
 
         btn_import_themes.clicked.connect(btn_import_themes_clicked);
@@ -554,9 +554,9 @@ public class MainWindow : Window {
         foreach(string uri in data.get_uris()){
 			string file = uri.replace("file://","").replace("file:/","");
 			file = Uri.unescape_string(file);
-			if (file.has_suffix(".cmtp.7z")){
+			if ( file.has_suffix(".7z") || file.has_suffix(".bz2") || file.has_suffix(".gz") 
+                || file.has_suffix(".xz") || file.has_suffix(".tar") || file.has_suffix(".zip") )
 				files.append(file);
-			}
 		}
 
 		install_theme_packs(files);
@@ -898,7 +898,7 @@ public class MainWindow : Window {
 	}
 
 	private void btn_import_themes_clicked(){
-		var dlgAddFiles = new Gtk.FileChooserDialog(_("Import Theme Pack") + " (*.cmtp.7z)", this, Gtk.FileChooserAction.OPEN,
+		var dlgAddFiles = new Gtk.FileChooserDialog(_("Import") + " (cmtp.7z; 7z; gz; bz2; xz; tar; zip; etc.)", this, Gtk.FileChooserAction.OPEN,
 							"gtk-cancel", Gtk.ResponseType.CANCEL,
 							"gtk-open", Gtk.ResponseType.ACCEPT);
 		dlgAddFiles.local_only = true;
@@ -906,8 +906,20 @@ public class MainWindow : Window {
  		dlgAddFiles.set_select_multiple (true);
  		
 		Gtk.FileFilter filter = new Gtk.FileFilter ();
-		dlgAddFiles.set_filter (filter);
+		//dlgAddFiles.set_filter (filter);
 		filter.add_pattern ("*.cmtp.7z");
+		filter.add_pattern ("*.7z");
+		filter.add_pattern ("*.tar.7z");
+		filter.add_pattern ("*.gz");
+		filter.add_pattern ("*.tar.gz");
+		filter.add_pattern ("*.bz2");
+		filter.add_pattern ("*.tar.bz2");
+		filter.add_pattern ("*.xz");
+		filter.add_pattern ("*.tar.xz");
+		filter.add_pattern ("*.tar");
+		filter.add_pattern ("*.zip");
+        filter.set_name("Conky Manager Theme or various compressed archive");
+		dlgAddFiles.add_filter (filter);
 		
 		//show the dialog and get list of files
 		SList<string> files = null;
@@ -929,9 +941,11 @@ public class MainWindow : Window {
 		
 		bool ok = true;
 		foreach (string file in files){
-			if (file.has_suffix(".cmtp.7z")){
+			if (file.has_suffix(".tar.7z") || file.has_suffix(".tar.bz2") || file.has_suffix(".tar.gz") 
+                || file.has_suffix(".tar.xz") || file.has_suffix(".tar"))
+				ok = ok && App.install_theme_pack(file, true);
+            else
 				ok = ok && App.install_theme_pack(file);
-			}
 		}
 		
 		scan_themes();
@@ -967,10 +981,15 @@ public class MainWindow : Window {
 		dialog.set_transient_for (this);
 
 		dialog.authors = {
-			"Tony George:teejeetech@gmail.com"
+			"Tony George:teejeetech@gmail.com",
+			"Scott Caudle:zcotcaudle@gmail.com"
 		};
 
 		dialog.translators = {
+			"freddii (German):github.com/freddii",
+			"fehlix (French):github.com/fehlix",
+			"tioguda (Portuguese - Brazil):github.com/tioguda",
+			"Vistaus (Dutch):github.com/Vistaus",
 			"gogo (Croatian):launchpad.net/~trebelnik-stefina",
 			"Radek Otáhal (Czech):radek.otahal@email.cz"
 		}; 

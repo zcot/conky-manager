@@ -1,5 +1,5 @@
-conky-manager (2.4) trusty; urgency=low
+conky-manager2 (2.7-bionicppa1) bionic; urgency=low
 
-  * Minor changes
+  * Meson build
   
- -- Tony George <tony.george.kol@gmail.com>  Wed, 21 Oct 2015 10:00:00 +0530
+ -- Arkadiusz Felinczak <arek_felinczak@protonmail.com>  Tue, 26 May 2020 14:22:27 +0100

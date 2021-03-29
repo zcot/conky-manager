@@ -6,7 +6,7 @@ launcherdir=$(sharedir)/applications
 mandir=$(sharedir)/man
 man1dir=$(mandir)/man1
 CFLAGS=--std=c99
-app_name=conky-manager
+app_name=conky-manager2
 app_fullname="Conky Manager"
 
 all:
@@ -46,11 +46,23 @@ install:
 	
 	#translations
 	mkdir -p "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-cs.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES/${app_name}.mo" ../po/cs.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/de_DE/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/de_DE/LC_MESSAGES/${app_name}.mo" ../po/de.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/fr_FR/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/fr_FR/LC_MESSAGES/${app_name}.mo" ../po/fr.po
 	
 	mkdir -p "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-hr.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES/${app_name}.mo" ../po/hr.po
 	
+	mkdir -p "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES/${app_name}.mo" ../po/nl.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES/${app_name}.mo" ../po/pt_BR.po
+
 uninstall:
 	#binary
 	rm -f "$(DESTDIR)$(bindir)/${app_name}"
